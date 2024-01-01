@@ -6,7 +6,8 @@ Modified to allow
 ```
 lifecycle {
    ignore_changes = [tags]
-}```
+}
+```
 
 since Upstream will not allow it.
 
