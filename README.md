@@ -1,6 +1,15 @@
 # AWS VPC Terraform module
 
 Terraform module which creates VPC resources on AWS.
+Modified to allow 
+
+```
+lifecycle {
+   ignore_changes = [tags]
+}```
+
+since Upstream will not allow it.
+
 
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
